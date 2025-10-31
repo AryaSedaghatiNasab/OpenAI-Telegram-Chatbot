@@ -1,2 +1,5 @@
 BOT_API_TOKEN = "BOT_API_TOKEN_HERE"
 OPENAI_TOKEN_KEY = "OpenAI_TOKEN_KEY_HERE"
+MAX_HISTORY = 30 #you can change
+
+HISTORY_FILE = "chat_history.json"
