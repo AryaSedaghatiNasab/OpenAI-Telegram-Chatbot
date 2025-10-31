@@ -1,6 +1,6 @@
 import telebot
 from openai import OpenAI
-from config import BOT_API_TOKEN , OpenAI_TOKEN_KEY
+from config import BOT_API_TOKEN , OPENAI_TOKEN_KEY
 import logging
 
 
@@ -10,7 +10,7 @@ bot = telebot.TeleBot(BOT_API_TOKEN)
 logger = telebot.logger
 telebot.logger.setLevel(logging.INFO)
 
-client = OpenAI(api_key=OpenAI_TOKEN_KEY)
+client = OpenAI(api_key=OPENAI_TOKEN_KEY)
 
 
 
