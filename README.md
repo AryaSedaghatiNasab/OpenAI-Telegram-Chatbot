@@ -1,4 +1,4 @@
-#OpenAI Telegram ChatBot🤖💎
+#ChatGPT Telegram ChatBot🤖💎
     
 ## install requirements
     pip install -r requirements.txt
